@@ -20,3 +20,10 @@ function arrayDiff(a, b) {
   }
 
   //This code is defining a function called arrayDiff, which takes in two arrays (a and b) as parameters. It then declares an empty array called result. It then uses a forEach loop to iterate through the elements of array a. For each element, it checks if the element is present in array b using the includes method. If the element is not present in b, it pushes the element to the result array. Finally, it returns the result array.
+
+  //**The variable el is defined inside the forEach loop of the arrayDiff function. It is used as a placeholder for the elements of the array a while iterating through the array.**
+
+  //Cleaner Solution:
+  function array_diff(a, b) {
+    return a.filter(e => !b.includes(e));
+  }
