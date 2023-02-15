@@ -33,3 +33,5 @@ function DNAStrand(dna) {
     }
     return result;
   }
+
+  //A switch statement is more concise than an if statement and can be used when there are multiple conditions that must be checked. It is also faster to execute than multiple if statements, as the code only needs to check the expression once, rather than in each individual if statement. Additionally, switch statements are easier to read and can make code more organized and easier to debug.
