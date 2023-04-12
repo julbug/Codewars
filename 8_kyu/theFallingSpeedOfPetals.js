@@ -29,4 +29,4 @@ function sakuraFall(v) {
 // 4. Note that the variable t is in seconds, which matches the unit of time given in the problem statement.
 
 
-//**The height of a typical cherry blossom tree is around 5 to 15 meters (or 16 to 49 feet). For the purpose of this problem, let's assume a height of 10 meters (or 400 centimeters) from which the petal falls. Therefore, we can use the distance of 400 cm in the calculation of the time it takes for the petal to reach the ground. */
+//** Distance to ground = 5 * 80 <--400 */
