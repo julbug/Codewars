@@ -25,3 +25,7 @@ function age(x, y) {
     // Return Julie's age
     return julieAge;
   }
+
+
+  //Cleaner Solution:
+  age=(x,y)=>x*y/(y-1)
