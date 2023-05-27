@@ -11,7 +11,7 @@
 
 
 //My Solution:
-const areaOrPerimeter = function(l , w) {
+const areaOrPerimeterOne = function(l , w) {
     if (l === w ){
       return l * w;
     } else {
@@ -20,7 +20,7 @@ const areaOrPerimeter = function(l , w) {
    };
 
    //Cleaner Solution:
-   const areaOrPerimeter = function(l , w) {
+   const areaOrPerimeterTwo = function(l , w) {
     return l == w ? l*w : 2*(l + w)
   };
   
