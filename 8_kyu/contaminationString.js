@@ -20,3 +20,8 @@ function contamination(text, char){
      const result = char.repeat(length);
      return result
      }
+
+     //Cleaner Solution:
+     function contamination(text, char){
+        return char.repeat(text.length)
+      }
