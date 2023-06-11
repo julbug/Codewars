@@ -13,6 +13,7 @@
 
 //My Solution:
 function whatday(num) { 
+  
     switch (num) {
       case 1:
        return "Sunday";
